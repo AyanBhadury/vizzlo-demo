@@ -8,7 +8,7 @@
 - Enzyme
 
 
-### `☑️ Features Included`
+### Features Included
 
 1. Component based design.
 2. Charting solutions.
