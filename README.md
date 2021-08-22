@@ -18,6 +18,6 @@
 Tasks folder contains all the question based solutions.
 
 ## To Run the project
-clone the repo
-npm install
-npm run start
+- clone the repo
+- npm install
+- npm run start
