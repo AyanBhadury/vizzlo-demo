@@ -1,7 +1,7 @@
 export const chartdata = {
   chart: {
     caption: "Example",
-    numberSuffix: "€",
+    numberPrefix: "€",
     theme: "fusion",
     showYAxisLine: 0,
     showYAxisValues: 0,
@@ -11,8 +11,13 @@ export const chartdata = {
     canvasbgcolor: "#ffffff",
     divlinealpha: 0,
     showBorder: 0,
+    showvalues: 1,
+    plotborderthickness: 3,
+    plotbordercolor: "#000000",
     useplotgradientcolor: 0,
     showLegend: 0,
+    showpercentvalues: 0,
+    exportEnabled: 1,
   },
   data: [
     { label: "Plane ticket", value: "268" },

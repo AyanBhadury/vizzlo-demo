@@ -1,0 +1,29 @@
+What are React Hooks, and why do they matter?
+---> Reach hooks was introduced in React version 16.8, the top key features & its necessity
+are listed below : 
+1 : State management was not possible in functional components for earlier react version (<16.8)
+which is now solved using react useState hooks
+2 :  Maitaining life cycle hooks was very tough, for example if an event is subscribed, one 
+needs to implement the subscription method in the componentdidmount life cycle method & again for 
+unsubscrbing it needs to be written in componentdidunmount life cycle method, as a result of
+which the codes were harder to locate.
+using useffect hook we can write all the life cycle stages under a simple callback method.
+3 : Hot reloading is faster in react hooks as compared to class based components.
+4 : Maitaining state & props was difficult in earlier version of react as result of which 
+dependency on third party lib like react redux was required, howver with the introduction of
+useReducer & context api hook can solve the problems.
+5 : this keyword in class based component can create a confusion sometimes, where as in
+functional compoents it does require a this keyword which benefits a lot of developers.
+
+TypeScript and ClojureScript, what are the differences?
+---> TypeScript is a superset of javascript which helps to check the typings & provides
+extra type checking which javascript offers.
+
+On the other hand, ClojureScript is mainly used for javascript clousure compilation.
+
+
+Regarding velocity/development speed, what is faster: TypeScript or JavaScript?
+---> Its highly debatable in my opinion, if I opt to use few lines of code I can go with JavaScript
+which will hardly matter, however when developing applications and utilising all the features
+of TypeScript I find a lot performant, and if I observe the code its compiles in javascript, which
+could not be as efficient if one tries to write in pure JavaScript

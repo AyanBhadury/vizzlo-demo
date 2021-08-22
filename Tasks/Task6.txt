@@ -1,0 +1,10 @@
+Assuming the pull request is completed here are the steps need to followed:
+
+1-  Please check the branch Pie_feature
+
+2-  The functionalities definition are added on the top of the methods.
+
+3-  The component is easily injectable with dependency to the charting lib, react hooks &
+data source only.
+
+4-  Feel free to share feedback in case it needs improvements.

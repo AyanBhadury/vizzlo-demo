@@ -1,0 +1,1 @@
+Please review Chart.tsx file for details.

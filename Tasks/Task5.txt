@@ -1,0 +1,26 @@
+TASK 5 
+
+There would be two components involved 
+
+1 - Server which will be associated with exporting the charts when requested. 
+The tech stack I would go for would be any server side language lets assume it would 
+be node js, since it will have chromium (headless browser) which will be automated using pupeteer.
+
+2 - The SDK which will interact with server end points and will export the chart.
+The SDK could be also implemented in mutiple tech stack, java,python,node
+
+PROS : 
+The export could be rendered at the server side, which means it may not be required to render
+the chart at the browser at all, we can also include a CRON job which will do the task at
+weekly or monthly basis.
+
+It will be able to handle large number of request at a time, also the end user will have the 
+flexibility to host into any cloud services and also implement a load balancer if needed.
+
+Can also be created a  docker container out of it.
+
+CONS : 
+Server build files may be need for each different opearting system, for example
+windows, linux etc
+Since the server will be running for a longer state proper management of physical space 
+need to be taken care of.
