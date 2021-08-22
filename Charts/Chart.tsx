@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ReactDOM from "react-dom";
 import FusionCharts from "fusioncharts";
 import Charts from "fusioncharts/fusioncharts.charts";
 import ReactFC from "react-fusioncharts";
@@ -24,7 +25,7 @@ const chartConfigs: ChartConstructor = {
 function Chart() {
   const [initalData, setinitalData] = useState(chartdata);
   const [chart, setchart] = useState({});
-  const [plotBorder, setplotBorder] = useState(false);
+  const [plotBorder, setplotBorder] = useState(true);
 
   function renderComplete(chart) {
     setchart(chart);
@@ -64,8 +65,8 @@ function Chart() {
     };
 
     chartdata.data.push(obj);
-    const x = { ...chartdata };
-    chart["setJSONData"](x);
+    const result: object = { ...chartdata };
+    chart["setJSONData"](result);
   };
 
   //shuffles the plots randomly
@@ -73,8 +74,8 @@ function Chart() {
     const data = chartdata.data.sort(function (a, b) {
       return Math.random() - 0.5;
     });
-    const x = { ...chartdata, data };
-    chart["setJSONData"](x);
+    const result: object = { ...chartdata, data };
+    chart["setJSONData"](result);
   };
 
   //resets all the filters

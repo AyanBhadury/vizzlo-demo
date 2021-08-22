@@ -1,0 +1,3 @@
+Please review Chart.test.js
+
+Note :  Jest package is showing compilation errors possibly need to reconfigure few packages.
