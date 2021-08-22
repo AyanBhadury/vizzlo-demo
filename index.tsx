@@ -13,7 +13,7 @@ import PieChart from './Charts/PieChart'
         return (
         <div id="container">
             <BarChart/>
-            <PieChart />
+            {/* <PieChart /> */}
         </div>
         )
     }  

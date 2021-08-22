@@ -1,4 +1,4 @@
-export const data = {
+export const chartdata = {
   chart: {
     caption: "Example",
     numberSuffix: "€",
@@ -7,6 +7,11 @@ export const data = {
     showYAxisValues: 0,
     paletteColors: "#E84C3C,#3398DC,#2DCC71,#F1C40D,#9A5AB5",
     enableSmartLabels: 1,
+    bgcolor: "#ffffff",
+    canvasbgcolor: "#ffffff",
+    divlinealpha: 0,
+    showBorder: 0,
+    useplotgradientcolor: 0,
     showLegend: 0,
   },
   data: [
