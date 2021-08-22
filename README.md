@@ -14,10 +14,10 @@
 2. Charting solutions.
 3. Updating chart configurations at the runtime.
 
-##Tasks
+## Tasks
 Tasks folder contains all the question based solutions.
 
-##To Run the project
+## To Run the project
 clone the repo
 npm install
 npm run start
